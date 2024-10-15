@@ -1,0 +1,47 @@
+
+        
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #1880d0;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #421bac;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.matrix {
+    display: flex;
+    justify-content: space-between;
+}
+.matrix input {
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
